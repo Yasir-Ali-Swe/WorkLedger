@@ -1,4 +1,4 @@
-# TaskForge
+# WorkLedger
 
 A role-based project and task management system built with the MERN stack. TaskForge is designed to simulate a real-world team collaboration platform with proper authentication, authorization, server/client state separation, and detailed activity logging.
 
@@ -6,7 +6,7 @@ A role-based project and task management system built with the MERN stack. TaskF
 
 ## 🚀 Overview
 
-TaskForge allows teams to manage projects and tasks with clear role separation between **Project Managers (Admins)** and **Team Members (Users)**. Every meaningful action performed in the system is logged, making the platform auditable and production-oriented rather than a simple CRUD application.
+WorkLedger allows teams to manage projects and tasks with clear role separation between **Project Managers (Admins)** and **Team Members (Users)**. Every meaningful action performed in the system is logged, making the platform auditable and production-oriented rather than a simple CRUD application.
 
 This project is built to demonstrate modern full-stack development practices and is intended to be resume-ready.
 
