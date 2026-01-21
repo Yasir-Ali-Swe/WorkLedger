@@ -1,7 +1,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import { connectDatabase } from "./config/database-connection.js";
+import { connectDatabase } from "./config/dbConnection.js";
 import { PORT } from "./config/env.js";
 
 const server = express();
