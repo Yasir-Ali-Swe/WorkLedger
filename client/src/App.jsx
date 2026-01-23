@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import { Button } from "./components/ui/button";
 const App = () => {
   return (
-    <div className='w-screen h-screen flex justify-center items-center bg-purple-800'>
-      <h1 className='text-gray-300 underline text-4xl font-black'>Welcome to WorkLedger</h1>
+    <div className="w-screen h-screen flex justify-center items-center">
+      <Button>Click Me</Button>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
