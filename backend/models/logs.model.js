@@ -21,7 +21,12 @@ const logSchema = new mongoose.Schema(
     },
     actorRole: {
       type: String,
-      enum: ["PROJECT_MANAGER", "TEAM_MEMBER","SYSTEM"],
+      enum: ["PROJECT_MANAGER", "TEAM_MEMBER", "SYSTEM"],
+      required: true,
+    },
+    companyId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Company",
       required: true,
     },
     entityType: {
@@ -35,6 +40,7 @@ const logSchema = new mongoose.Schema(
     projectId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Project",
+      required: false,
     },
     metadata: {
       type: mongoose.Schema.Types.Mixed,
