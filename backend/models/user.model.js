@@ -20,11 +20,14 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: ["PROJECT_MANAGER", "TEAM_MEMBER"],
-      default: "TEAM_MEMBER",
     },
     isVerified: {
       type: Boolean,
       default: false,
+    },
+    companyId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Company",
     },
   },
   {
